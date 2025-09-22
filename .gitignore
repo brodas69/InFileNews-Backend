@@ -1,0 +1,24 @@
+/vendor/
+node_modules/
+
+# Laravel runtime
+bootstrap/cache/
+storage/*.key
+storage/logs/
+storage/framework/cache/
+storage/framework/sessions/
+storage/framework/testing/
+storage/framework/views/
+public/storage
+
+# Env / tooling
+.env
+.env.*
+.phpunit.result.cache
+.phpunit.cache
+Homestead.yaml
+Homestead.json
+
+# IDE
+.vscode/
+.idea/
